@@ -7,7 +7,7 @@ This git repository includes distributed system papers. It's important to read s
   1. [Batch Computing](#batch-computing)
   2. [Streaming Computing](#streaming-computing)
   3. [Distributed File System](#distributed-file-system) 
-  4. Distributed Memory System 
+  4. [Distributed Memory System](#distributed-mem-system) 
   5. Key-Value System 
   6. Distributed Machine Learning 
   7. Deep Learning
@@ -30,5 +30,5 @@ This git repository includes distributed system papers. It's important to read s
     Authors: Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung
 
 ## <a name='distributed-mem-system'>Distributed Memory System
-  * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster   Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)(2012 NSDI): Resilient Distributed DataSets, whose short name is RDD, is a distributed storage system for Spark Distributed Computing System. It's useful to execute iterative computing and cache the intermidate result in memory. The main difference between RDD between DSM is that it's created through coarse-fined transformation. It also provides fault tolerance and scalability.  
+  * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster   Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)(2012 NSDI): Resilient Distributed DataSets, whose short name is RDD, is a distributed storage system for Spark Distributed Computing System. It's useful to execute iterative computing and cache the intermidiate result in memory. The main difference between RDD between DSM is that it's created through coarse-fined transformation. It also provides fault tolerance and scalability.  
     Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Mosharaf Chowdhury](http://www.mosharaf.com/), [Tathagata Das](https://www.linkedin.com/in/tathadas) etc al.
