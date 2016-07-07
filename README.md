@@ -6,7 +6,7 @@ This git repository includes distributed system papers. It's important to read s
 
   1. [Batch Computing](#batch-computing)
   2. [Streaming Computing](#streaming-computing)
-  3. Distributed File System 
+  3. [Distributed File System](#distributed-file-system) 
   4. Distributed Memory System 
   5. Key-Value System 
   6. Distributed Machine Learning 
