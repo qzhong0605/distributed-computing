@@ -5,6 +5,6 @@ master degree from Beihang Univeristy, where I forcused on distributed storage s
 
 ##1. MapReduce<br>
 
-   [Google MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)<br>
+   [Google MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf):MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key<br>
    [Hadoop Online]()
    
