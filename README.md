@@ -3,13 +3,14 @@ This git repository includes distributed system papers. It's important to read s
 
 
 ## <a name='toc'>Table of Contents</a>
-  1.[Batch Computing](#batch-computing)
-  2.[Streaming Computing](#streaming-computing)
-  3.Distributed File System 
-  4.Distributed Memory System 
-  5.Key-Value System 
-  6.Distributed Machine Learning 
-  7.Deep Learning
+
+  1. [Batch Computing](#batch-computing)
+  2. [Streaming Computing](#streaming-computing)
+  3. Distributed File System 
+  4. Distributed Memory System 
+  5. Key-Value System 
+  6. Distributed Machine Learning 
+  7. Deep Learning
 
 ## <a name='batch-computing'>Batch Computing 
    * [Google MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)(2003 OSDI): MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key<br>
