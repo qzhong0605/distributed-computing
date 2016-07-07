@@ -23,3 +23,7 @@ This git repository includes distributed system papers. It's important to read s
 ## <a name='streaming-computing'>Streaming Computing
   * [Spark Streaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf)(2013 SOSP): A programing model. Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of the stream data.<br>
     Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Tathagata Das](https://www.linkedin.com/in/tathadas), [Haoyuan Li](http://people.eecs.berkeley.edu/~haoyuan/), Timothy Hunter, [Scott Shenker](https://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html), [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+
+## <a name='distributed-file-system'>Distributed File System 
+  * [Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)(2003 SOSP): Google File System is a scalable distributed file system for data-intensive applications. It provides fault tolerance while running inexpensive commandity hardware, and it delivers aggregate performance to a lot of clients. The main differences among others <br>
+    Authors: Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung
