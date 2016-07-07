@@ -32,3 +32,6 @@ This git repository includes distributed system papers. It's important to read s
 ## <a name='distributed-mem-system'>Distributed Memory System
   * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster   Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)(2012 NSDI): Resilient Distributed DataSets, whose short name is RDD, is a distributed storage system for Spark Distributed Computing System. It's useful to execute iterative computing and cache the intermidiate result in memory. The main difference between RDD between DSM is that it's created through coarse-fined transformation. It also provides fault tolerance and scalability.  
     Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Mosharaf Chowdhury](http://www.mosharaf.com/), [Tathagata Das](https://www.linkedin.com/in/tathadas) etc al.
+## <a name='kv-system'>Key-Value System
+  * [Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)(2015 NSDI): Succinct is a data store that enables directly queries on a compressed presentation of the input data. Succinct uses a compress technology, which is 
+  archived through compressed suffix array, to make query more quickly. In addition, Succinct supports a range of 
