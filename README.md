@@ -9,8 +9,9 @@ This git repository includes distributed system papers. It's important to read s
   3. [Distributed File System](#distributed-file-system) 
   4. [Distributed Memory System](#distributed-mem-system) 
   5. [Key-Value System](#kv-system) 
-  6. Distributed Machine Learning 
-  7. Deep Learning
+  6. [Resource Sharing and Scheduling System](#rs-sharing-scheduling)
+  7. Distributed Machine Learning 
+  8. Deep Learning
 
 ## <a name='batch-computing'>Batch Computing 
    * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)(2003 OSDI): This paper is a classical paper for distributed computing from Google cooperation. MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key<br>
@@ -39,3 +40,5 @@ This git repository includes distributed system papers. It's important to read s
   archived through compressed suffix array, to make query more quickly. In addition, Succinct supports a range of queries including count and search of architary string. What differentiates Succinct from previous storage system is that it doesn't store index at all. <br>
     Authors: Rachit Agarwal, Anurag Khandelwal, [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
 
+## <a name='rs-sharing-scheduling'>Resource Sharing System
+  *[Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](http://dl.acm.org/citation.cfm?id=1972488)(2011 NSDI): Mesos is a platform for sharing commondity clusters between multiple diverse cluster computing frameworks, such as Hadoop and MPI. Sharing improves cluster utilization and avoid per-framework data replication. Mesos shares resouces in fined-grained manner, allowing frameworks to achieve data locality by take turns reading data stored on each machine.
