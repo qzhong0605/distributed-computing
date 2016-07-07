@@ -36,4 +36,5 @@ This git repository includes distributed system papers. It's important to read s
 ## <a name='kv-system'>Key-Value System
   * [Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)(2015 NSDI): Succinct is a data store that enables directly queries on a compressed presentation of the input data. Succinct uses a compress technology, which is 
   archived through compressed suffix array, to make query more quickly. In addition, Succinct supports a range of queries including count and search of architary string. What differentiates Succinct from previous storage system is that it doesn't store index at all. <br>
-    Autheros: Rachit Agarwal, Anurag Khandelwal, [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+    Authors: Rachit Agarwal, Anurag Khandelwal, [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+   -----------
