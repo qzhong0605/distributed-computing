@@ -4,7 +4,7 @@ This git repository includes distributed system papers. It's important to read s
 
 ## Table of Contents
 * [Batch Computing](#batch-computing)
-* [Streaming Computing](#Streaming-Computing)
+* [Streaming Computing](#streaming-computing)
 * Distributed File System 
 * Distributed Memory System 
 * Key-Value System 
