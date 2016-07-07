@@ -21,4 +21,5 @@ This git repository includes distributed system papers. It's important to read s
    [Table of Content](#toc)
 
 ## <a name='streaming-computing'>Streaming Computing
-  * [Spark Streaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf): 
+  * [Spark Streaming](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf)(2013 sosp): A programing model. Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of the stream data.
+      Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Tathagata Das](https://www.linkedin.com/in/tathadas), [Haoyuan Li](http://people.eecs.berkeley.edu/~haoyuan/), Timothy Hunter, [Scott Shenker](https://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html), [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
