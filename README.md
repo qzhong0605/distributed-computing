@@ -1,4 +1,4 @@
-# readings of distributed system 
+# Readings of Distributed System 
 This git repository includes distributed system papers. It's important to read some papers for you to understand distributed system. 
 
 
