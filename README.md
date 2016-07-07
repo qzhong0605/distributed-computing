@@ -3,7 +3,7 @@ This git repository includes distributed system papers. It's important to read s
 
 
 ## Table of Contents
-* Batch Computing 
+* [Batch Computing](#Batch Computing)
 * Streaming Computing 
 * Distributed File System 
 * Distributed Memory System 
