@@ -8,7 +8,7 @@ This git repository includes distributed system papers. It's important to read s
   2. [Streaming Computing](#streaming-computing)
   3. [Distributed File System](#distributed-file-system) 
   4. [Distributed Memory System](#distributed-mem-system) 
-  5. Key-Value System 
+  5. [Key-Value System](#kv-system) 
   6. Distributed Machine Learning 
   7. Deep Learning
 
@@ -24,6 +24,7 @@ This git repository includes distributed system papers. It's important to read s
 ## <a name='streaming-computing'>Streaming Computing
   * [Discretized Streams: Fault-Tolerant Streaming Computation at Scale](https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf)(2013 SOSP): A programing model. Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of the stream data.<br>
     Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Tathagata Das](https://www.linkedin.com/in/tathadas), [Haoyuan Li](http://people.eecs.berkeley.edu/~haoyuan/), Timothy Hunter, [Scott Shenker](https://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html), [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
+  * [Storm @Twitter](http://dl.acm.org/citation.cfm?id=2595641)(2014 SIGMOD): Storm is a real time fault-tolerant and distributed stream data processing system. The basic execuation unit is called topology, which includes spout and bolt. It can return result at intermidiately time, which make it different from other distributed data processing system 
 
 ## <a name='distributed-file-system'>Distributed File System 
   * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)(2003 SOSP): Google File System is a scalable distributed file system for data-intensive applications. It provides fault tolerance while running inexpensive commandity hardware, and it delivers aggregate performance to a lot of clients. The main differences among others <br>
@@ -37,4 +38,4 @@ This git repository includes distributed system papers. It's important to read s
   * [Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)(2015 NSDI): Succinct is a data store that enables directly queries on a compressed presentation of the input data. Succinct uses a compress technology, which is 
   archived through compressed suffix array, to make query more quickly. In addition, Succinct supports a range of queries including count and search of architary string. What differentiates Succinct from previous storage system is that it doesn't store index at all. <br>
     Authors: Rachit Agarwal, Anurag Khandelwal, [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/)
-   -----------
+
