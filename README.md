@@ -19,7 +19,6 @@ This git repository includes distributed system papers. It's important to read s
    * [MapReduce Online](http://www.neilconway.org/docs/nsdi2010_hop.pdf)(2010 NSDI): A modified MapReduce architecture that allows data to be pipelined between operators. This extends the MapReduce programming model beyond batch processing, and can reduce completion times and improve system utilization for batch jobs as well. It alse supports online aggregation, which allows users to see "early returns" from a job as it is being computed.<br>
       Authors: Tyson Condie, Neil Conway, Peter Alvaro etc al.
    
-   * []
    [Table of Content](#toc)
 
 ## <a name='streaming-computing'>Streaming Computing
@@ -31,4 +30,5 @@ This git repository includes distributed system papers. It's important to read s
     Authors: Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung
 
 ## <a name='distributed-mem-system'>Distributed Memory System
-  * [Spark ]
+  * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster   Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)(2012 NSDI): Resilient Distributed DataSets, whose short name is RDD, is a distributed storage system for Spark Distributed Computing System. It's useful to execute iterative computing and cache the intermidate result in memory. The main difference between RDD between DSM is that it's created through coarse-fined transformation. It also provides fault tolerance and scalability.  
+    Authors: [Matei Zaharia](https://people.csail.mit.edu/matei), [Mosharaf Chowdhury](http://www.mosharaf.com/), [Tathagata Das](https://www.linkedin.com/in/tathadas) etc al.
