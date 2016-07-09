@@ -56,6 +56,6 @@ This git repository includes distributed system papers. It's important to read s
   [Table of Contents](#toc)
 
 ## <a name='other-resources'> Other Resources
-  * [Operating Systems Reading Group](https://www.cl.cam.ac.uk/~ms705/netos/os-reading-group.html): Here is Operating Systems reading group from University of Cambrige. There are many interesting and fantastic papers in here, including traditional operation system and trends on operation system, such as libraos, plan9 etc al. You can choose what you are interested in to deep into it.
+  * [Operating Systems Reading Group](https://www.cl.cam.ac.uk/~ms705/netos/os-reading-group.html): Here is Operating Systems reading group from University of Cambrige. There are many interesting and fantastic papers in here, including traditional operation system and trends on operation system, such as libraos, plan9 etc al. You can choose what you are interested in to dive into it.
   
   [Table of Contents](#toc)
