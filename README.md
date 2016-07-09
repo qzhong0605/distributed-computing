@@ -12,7 +12,7 @@ This git repository includes distributed system papers. It's important to read s
   6. [Resource Sharing and Scheduling System](#rs-sharing-scheduling)
   7. Distributed Machine Learning 
   8. Deep Learning
-  9. [other resources](#other-resources)
+  9. [Other Resources](#other-resources)
 
 ## <a name='batch-computing'>Batch Computing 
    * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)(2003 OSDI): This paper is a classical paper for distributed computing from Google cooperation. MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key<br>
@@ -47,4 +47,4 @@ This git repository includes distributed system papers. It's important to read s
   
  
 ## <a name='other-resources'> Other Resources
-  * [Operating Systems reading group](https://www.cl.cam.ac.uk/~ms705/netos/os-reading-group.html): Here is Operating Systems reading group. There are many interesting and fantastic papers in here, including traditional operation system and trends on operation system, such as libraos, plan9 etc al. You can choose what you are interested in to deep into it.
+  * [Operating Systems Reading Group](https://www.cl.cam.ac.uk/~ms705/netos/os-reading-group.html): Here is Operating Systems reading group. There are many interesting and fantastic papers in here, including traditional operation system and trends on operation system, such as libraos, plan9 etc al. You can choose what you are interested in to deep into it.
