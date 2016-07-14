@@ -58,5 +58,6 @@ This git repository includes distributed system papers. It's important to read s
 ## <a name='other-resources'> Other Resources
   * [Operating Systems Reading Group](https://www.cl.cam.ac.uk/~ms705/netos/os-reading-group.html): Here is Operating Systems reading group from University of Cambrige. There are many interesting and fantastic papers in here, including traditional operation system and trends on operation system, such as libraos, plan9 etc al. You can choose what you are interested in to dive into it.
   * [Readings in Databases](https://github.com/rxin/db-readings): A list of papers essential to understanding databases and building new data processing systems.   
+  * [Stream Processing Papers](https://cwiki.apache.org/confluence/display/SAMZA/Stream+Processing+Papers): Here includes stream processing and stream algorithm. You can find many interesting papers focused on streaming processing.
   
   [Table of Contents](#toc)
